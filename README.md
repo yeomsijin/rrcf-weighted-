@@ -24,9 +24,9 @@ def _cut(self, X, S, parent=None, side='l')
 
  
 
-        ## # Determine value for split
+        __# Determine value for split
 
-        p = self.rng.uniform(xmin[q], xmax[q])##
+        p = self.rng.uniform(xmin[q], xmax[q])#__
 
  
 
@@ -82,7 +82,7 @@ def _cut(self, X, S, parent=None, side='l'):
 
  
 
-        # Determine value for split
+        #__Determine value for split
 
         epsilon = ((xmax[q] - xmin[q])/(len(X[S][:,q])-1) )/2
 
@@ -100,7 +100,7 @@ def _cut(self, X, S, parent=None, side='l'):
 
             if num_nd < 2:
 
-                break;
+                break;__
 
        
 
