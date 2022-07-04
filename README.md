@@ -3,7 +3,7 @@
 
 Based on the implementation of rrcf done by [kLabUM](https://github.com/kLabUM/rrcf.git), 
 I only changed some part of the def _cut_ in wrcf.py as follows:
-(This is very simple and powerful)
+(This is very simple but powerful)
 
 **Determine value for split**
 
