@@ -24,9 +24,9 @@ def _cut(self, X, S, parent=None, side='l')
 
  
 
-        # Determine value for split
+        ## # Determine value for split
 
-        p = self.rng.uniform(xmin[q], xmax[q])
+        p = self.rng.uniform(xmin[q], xmax[q])##
 
  
 
